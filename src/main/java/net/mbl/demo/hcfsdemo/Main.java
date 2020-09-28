@@ -28,6 +28,6 @@ public class Main {
 
   public static void main(String[] args) throws IOException {
     Main main = new Main();
-    main.cp(args[1], args[2]);
+    main.cp(args[0], args[1]);
   }
 }

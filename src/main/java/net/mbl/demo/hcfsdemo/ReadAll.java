@@ -21,7 +21,7 @@ public class ReadAll {
       } else {
         try (FSDataInputStream is = fs.open(status.getPath())) {
           System.out.println("start read " + status.getPath());
-          IOUtils.copy(is, new NullOutputStream(), 4096);
+          IOUtils.copy(is, new NullOutputStream());
           System.out.println("finish read " + status.getPath());
         }
       }

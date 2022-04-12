@@ -13,7 +13,7 @@
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
 
-    <hadoop.version>2.8.5</hadoop.version>
+    <hadoop.version>3.2.3</hadoop.version>
     <junit.version>4.12</junit.version>
     <ozone.version>1.0.0</ozone.version>
     <alluxio.version>2.4.1</alluxio.version>
